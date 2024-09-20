@@ -1,6 +1,15 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: ;
+    padding: ;
+}
+nav > ul >li{
+    display: inline;
+}
+nav > ul >li > a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
 }
 /* start css for paragraph . html */
 /* end css for paragraph . html */
