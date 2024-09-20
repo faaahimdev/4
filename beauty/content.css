@@ -2,3 +2,12 @@
     margin: ;
     padding: ;
 }
+nav > ul >li{
+    display: inline;
+}
+nav > ul >li > a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+}
