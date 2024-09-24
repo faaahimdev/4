@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+    color: rgb(228, 168, 78);
+}
+table{
+    border-collapse: collapse;
+    /* text-align: center; */
+    background-color: rgb(241, 241, 197);
+}
+caption{
+
+    padding: 5px 10px;
+    margin: 7px;
+    font-size: large;
+background-color:rgb(241, 241, 197);
+
+}
+
+
+td , th{
+    border: 2px solid black;
+    padding: 5px 10px;
+}
