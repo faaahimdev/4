@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav > ul{
+    display: flex;
+    font-size: large;
+    height: 50px;
+    background-color: rgb(216, 215, 226);
+   
+}
+nav ul li {
+    margin: 5 px;
+    padding: 5px;
+    list-style: none;
+
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: rgb(95, 66, 69);
+}
+nav li:hover{
+    background-color: rgb(214, 169, 22);
+}
+/* nested menu styles */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(219, 145, 145);
+    padding: 10px;
+}
+/* nav li:hover > .dropdown{ in case more mega */
+nav li:hover .dropdown{
+    display: block;
+}
+
+
+
